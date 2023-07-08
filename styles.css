@@ -1,0 +1,100 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,500&display=swap');
+
+  body {
+    text-align: center;
+    font-family: 'Happy Monkey', currsive;
+    background: linear-gradient(#a2d2ff, #EFB0C9 );
+    color: #fff;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #image {
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+  }
+
+  h1, h2, h3, h4, p {
+    text-shadow: 0px 1px black;
+  }
+
+  #bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px 0 1px 0;
+  }
+
+  #bday-date{
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .gift {
+    width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("Image/Gift-cover-02.jpg");
+    background-size: cover;
+    margin: 0 auto;
+  }
+
+  .gift:hover {
+    background-image: url("Image/birthday.wish.gif");
+  }
+  
+  .gift-friendship {
+    width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("Image/gift-cover.jpg");
+    background-size: cover;
+    margin: 0 auto;
+  }
+
+  .gift-friendship:hover {
+    background-image: url("Image/friends-hugging.gif");
+    background-position: center;
+  }
+
+  #need:hover {
+    background-image: url("Image/Friend in need.gif");
+    background-position: center;
+  }
+
+  .gift-section {
+    margin-top: 50px;
+  }
+  .gift-hint {
+    margin-top: 0px;
+  }s
+
+  .gift-title {
+    margin-bottom: 5px;
+  }
+
+  #footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+a:hover {
+    color: rgb(84, 51, 213);
+}
